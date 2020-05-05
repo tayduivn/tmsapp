@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "390125231595",
+    "firebase_url": "https://mwgpay-dcc2f.firebaseio.com",
+    "project_id": "mwgpay-dcc2f",
+    "storage_bucket": "mwgpay-dcc2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390125231595:android:ad18fc7ef71ed116",
+        "android_client_info": {
+          "package_name": "com.tgdd.mwgpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390125231595-10qdttr53iemcslrtgfqiuebvi85mce6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPTMP22eC8J_FR0i-IER4jfQZAnHN8-og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390125231595-10qdttr53iemcslrtgfqiuebvi85mce6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "390125231595-40r6vbqoj0so94h87pojirfaqkto0841.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tgdd.mwgpay"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

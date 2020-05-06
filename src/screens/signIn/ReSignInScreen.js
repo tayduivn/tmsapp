@@ -571,7 +571,7 @@ const styles = StyleSheet.create({
     },
     containerInfo: {
         width: "95%",
-        height: 160,
+        height: 240,
         justifyContent: "space-around",
         marginVertical: 10,
         alignItems: "center"

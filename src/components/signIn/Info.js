@@ -11,7 +11,7 @@ export const Info = (props) => {
             </Text>
             <Avatar
                 rounded
-                size="large"
+                size="xlarge"
                 source={{
                     uri:
                         'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',

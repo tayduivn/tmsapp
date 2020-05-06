@@ -120,7 +120,7 @@ class ReSignInScreenCom extends Component {
                 })
             }
         }, 100);
-        // this.preSignIn()
+        this.preSignIn()
     }
 
     appSettingData = async () => {

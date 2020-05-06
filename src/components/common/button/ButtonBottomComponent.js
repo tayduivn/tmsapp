@@ -8,11 +8,11 @@ import { Button } from 'react-native-elements'
 export const ButtonBottomComponent = (props) => {
 
     return (
-        <View style={styles.containerButtonGroup} >
+        <View style={props.containerButtonGroup ? props.containerButtonGroup : styles.containerButtonGroup} >
             <Button
                 title={props.title ? props.title : "Xác nhận"}
                 buttonStyle={styles.confirmButton}
-                containerStyle={styles.containerButton}
+                containerStyle={props.containerButton ? props.containerButton : styles.containerButton}
                 textStyle={styles.title}
                 type="solid"
                 onPress={props.onPress}

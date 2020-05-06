@@ -6,45 +6,48 @@ import {
 import { Icon } from 'react-native-elements';
 
 import {
-    HomeStack,
-    HistoryStack,
-    PreferentialStack,
+    DeliveryStack,
+    RewardStack,
+    NoticeStack,
     ProfileStack
 } from '../stackNavigator'
 
 export const Tabs = createBottomTabNavigator(
     {
-        Home: {
-            screen: HomeStack,
+        Delivery: {
+            screen: DeliveryStack,
             navigationOptions: {
-                tabBarLabel: 'MWG',
+                tabBarLabel: 'Giao Hàng',
                 tabBarIcon: ({ tintColor }) => <Icon name="home" type="font-awesome" size={28} color={tintColor} />
             },
         },
-        History: {
-            screen: HistoryStack,
+        Reward: {
+            screen: RewardStack,
             navigationOptions: {
-                tabBarLabel: 'Lịch sử GD',
+                tabBarLabel: 'Điểm Thưởng',
                 tabBarIcon: ({ tintColor }) => <Icon name="history" type="font-awesome" size={28} color={tintColor} />,
             },
         },
-        Preferential: {
-            screen: PreferentialStack,
+        Notice: {
+            screen: NoticeStack,
             navigationOptions: {
-                tabBarLabel: 'Ưu đãi',
-                tabBarIcon: ({ tintColor }) => <Icon name="gift" type="font-awesome" size={28} color={tintColor} />
+                tabBarLabel: 'Thông Báo',
+                tabBarIcon: ({ tintColor }) => <Icon name="gift" type="font-awesome" size={28} color={tintColor} />,
+                headerStyle: {
+                    backgroundColor: '#633689',
+                },
             },
         },
         Profile: {
             screen: ProfileStack,
             navigationOptions: {
-                tabBarLabel: 'Ví của tôi',
+                tabBarLabel: 'Cá Nhân',
                 tabBarIcon: ({ tintColor }) => <Icon name="user" type="font-awesome" size={28} color={tintColor} />
             },
         },
     },
     {
-        initialRouteName: 'Home'
+        initialRouteName: 'Delivery'
     }
 );
 Tabs.navigationOptions = {

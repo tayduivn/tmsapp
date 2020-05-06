@@ -16,9 +16,9 @@ import { callFetchAPI } from "@actions/fetchAPIAction";
 import { HistoryItem } from '@components/history/HistoryItem';
 import { formatMoney } from '@utils/function';
 
-class HistoryCom extends Component {
+class RewardCom extends Component {
     static navigationOptions = {
-        title: "Lịch sử"
+        title: "Điểm Thưởng"
     }
     constructor(props) {
         super(props);
@@ -265,7 +265,7 @@ const mapDispatchToProps = dispatch => {
     };
 };
 
-const History = connect(mapStateToProps, mapDispatchToProps)(HistoryCom);
+const History = connect(mapStateToProps, mapDispatchToProps)(RewardCom);
 export default History;
 
 const styles = StyleSheet.create({

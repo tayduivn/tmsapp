@@ -12,6 +12,6 @@ export const AppStack = createStackNavigator(
             navigationOptions: ({ navigation }) => ({
                 gesturesEnabled: false,
             })
-        }
+        },
     }
 );

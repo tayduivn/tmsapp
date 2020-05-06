@@ -65,7 +65,7 @@ class ReSignInScreenCom extends Component {
             phoneNumber: '',
             fullName: '',
             currentAmount: 0,
-            password: '', //123456
+            password: '111222', //123456
             errors: {},
             isModalVisible: false,
             titleModal: '',
@@ -120,7 +120,7 @@ class ReSignInScreenCom extends Component {
                 })
             }
         }, 100);
-        // this.preSignIn()
+        this.preSignIn()
     }
 
     appSettingData = async () => {

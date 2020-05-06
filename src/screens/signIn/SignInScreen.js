@@ -66,8 +66,6 @@ class SignInScreenCom extends Component {
 
         let uniqueId = DeviceInfo.getUniqueId();
         let modelName = DeviceInfo.getModel();
-        // console.log("uniqueId", uniqueId);
-        // console.log("modelName", modelName)
         const phoneNumber = this.props.navigation.getParam('phoneNumber', '')
         const password = this.props.navigation.getParam('password', '')
         const isAutoSignIn = this.props.navigation.getParam('isAutoSignIn', false)
@@ -371,17 +369,17 @@ class SignInScreenCom extends Component {
 
                             <SignInButton onPress={this.preSignIn} title="ĐĂNG NHẬP" />
 
-                            <View style={{ width: "100%", height: 50, justifyContent: "center", flexDirection: 'row' }}>
+                            {/* <View style={{ width: "100%", height: 50, justifyContent: "center", flexDirection: 'row' }}>
                                 <TouchableOpacity onPress={this.forgotPassword}>
                                     <Text style={{ color: '#03a5db' }}>Quên mật khẩu</Text>
                                 </TouchableOpacity>
-                            </View>
-                            <View style={styles.registerAccount}>
+                            </View> */}
+                            {/* <View style={styles.registerAccount}>
                                 <Text style={{ textAlign: 'center', color: "#000" }}>Bạn chưa có tài khoản MWGPay? </Text>
                                 <TouchableOpacity onPress={this.signUp}>
                                     <Text style={{ color: '#03a5db' }}>Đăng ký ngay</Text>
                                 </TouchableOpacity>
-                            </View>
+                            </View> */}
                         </View>
                         <View>
                             <ModalLoading

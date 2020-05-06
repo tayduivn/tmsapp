@@ -30,13 +30,13 @@ export const SignInButton = (props) => {
                 buttonStyle={{
                     height: 50,
                     width: 150,
-                    backgroundColor: '#ffee00',
+                    backgroundColor: 'green',
                     borderWidth: 2,
-                    borderColor: 'rgba(171, 189, 219, 1)',
+                    borderColor: '#ffee00',
                     borderRadius: 10,
                 }}
                 containerStyle={{ marginTop: 35, marginBottom: 20 }}
-                titleStyle={{ fontWeight: '600', color: '#288ad6' }}
+                titleStyle={{ fontWeight: '600', color: '#ffee00' }}
             />
         </View>
     )

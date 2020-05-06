@@ -120,7 +120,7 @@ class ReSignInScreenCom extends Component {
                 })
             }
         }, 100);
-        this.preSignIn()
+        // this.preSignIn()
     }
 
     appSettingData = async () => {
@@ -571,7 +571,7 @@ const styles = StyleSheet.create({
     },
     containerInfo: {
         width: "95%",
-        height: 80,
+        height: 160,
         justifyContent: "space-around",
         marginVertical: 10,
         alignItems: "center"

@@ -2,6 +2,7 @@ import { createStackNavigator } from 'react-navigation';
 
 // Home MWG
 import Delivery from '@screens/delivery';
+import DeliveringDetail from '@screens/delivery/DeliveringDetail'
 
 // Điểm Thưởng
 import Reward from '@screens/reward';
@@ -18,6 +19,7 @@ import Lock from '@screens/signIn/Lock';
 export const DeliveryStack = createStackNavigator(
     {
         Delivery: Delivery,
+        DeliveringDetail: DeliveringDetail,
         Lock: Lock
     },
 );

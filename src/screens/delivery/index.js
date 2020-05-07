@@ -50,7 +50,7 @@ export default class Preferential extends Component {
     }
 
     deliveringDetail = () => {
-        console.log("deliveringDetail")
+        this.props.navigation.navigate('DeliveringDetail')
     }
 
     render() {

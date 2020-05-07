@@ -2,9 +2,9 @@ import React, { Fragment } from 'react'
 import { View, Text, StyleSheet, StatusBar, UIManager } from 'react-native'
 import { Icon } from 'react-native-elements';
 
-// import MapView, { PROVIDER_GOOGLE, Marker, Callout, Polygon, Circle, MapViewDirections } from 'react-native-maps';
-// import Geolocation from '@react-native-community/geolocation';
-// import { PERMISSIONS, request } from 'react-native-permissions';
+import MapView, { PROVIDER_GOOGLE, Marker, Callout, Polygon, Circle, MapViewDirections } from 'react-native-maps';
+import Geolocation from '@react-native-community/geolocation';
+import { PERMISSIONS, request } from 'react-native-permissions';
 
 // Enable LayoutAnimation on Android
 // UIManager.setLayoutAnimationEnabledExperimental &&
@@ -68,7 +68,7 @@ export default class DeliveringDetail extends React.Component {
             <Fragment>
                 <StatusBar barStyle="dark-content" />
                 <View style={styles.container}>
-                    {/* <MapView
+                    <MapView
                         provider={PROVIDER_GOOGLE} // remove if not using Google Maps
                         showsUserLocation={true}
                         ref={map => this._map = map}
@@ -104,7 +104,7 @@ export default class DeliveringDetail extends React.Component {
                             ))
                         }
 
-                    </MapView> */}
+                    </MapView>
                 </View>
             </Fragment>
         )

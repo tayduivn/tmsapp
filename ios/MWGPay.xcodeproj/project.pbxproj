@@ -57,6 +57,7 @@
 		BC78593924372A500096093E /* libRNKeychain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7859362437277E0096093E /* libRNKeychain.a */; };
 		BC78594324372B540096093E /* libRNCNetInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC78594024372B500096093E /* libRNCNetInfo.a */; };
 		BC78594A24372C960096093E /* libRNPermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC78594924372C930096093E /* libRNPermissions.a */; };
+		BC7D2A342463CA3B00EB2C6A /* libRNCGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7D2A332463CA3700EB2C6A /* libRNCGeolocation.a */; };
 		BEB970F6AD8F41FE803DAA01 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5B4D7C652F4DEF96304A0A /* SimpleLineIcons.ttf */; };
 		C472A1DDDD9A4C1B95A00E77 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 313BAE9002D442278ED60D67 /* EvilIcons.ttf */; };
 		CA20C5AE78364FE1825F602F /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33A17C535D924F919E5683C5 /* Fontisto.ttf */; };
@@ -403,6 +404,13 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNPermissions;
 		};
+		BC7D2A322463CA3700EB2C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC7D2A2E2463CA3700EB2C6A /* RNCGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNCGeolocation;
+		};
 		E5C4003022E5CA1800564A47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EE30D47411284E4A8B7B1C60 /* BVLinearGradient.xcodeproj */;
@@ -508,7 +516,7 @@
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MWGPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWGPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MWGPay/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MWGPay/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MWGPay/AppDelegate.m; sourceTree = "<group>"; wrapsLines = 1; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MWGPay/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MWGPay/Info.plist; sourceTree = "<group>"; };
@@ -558,6 +566,7 @@
 		BC7859302437277D0096093E /* RNKeychain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNKeychain.xcodeproj; path = "../node_modules/react-native-keychain/RNKeychain.xcodeproj"; sourceTree = "<group>"; };
 		BC78593A24372B500096093E /* RNCNetInfo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCNetInfo.xcodeproj; path = "../node_modules/@react-native-community/netinfo/ios/RNCNetInfo.xcodeproj"; sourceTree = "<group>"; };
 		BC78594424372C930096093E /* RNPermissions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNPermissions.xcodeproj; path = "../node_modules/react-native-permissions/ios/RNPermissions.xcodeproj"; sourceTree = "<group>"; };
+		BC7D2A2E2463CA3700EB2C6A /* RNCGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCGeolocation.xcodeproj; path = "../node_modules/@react-native-community/geolocation/ios/RNCGeolocation.xcodeproj"; sourceTree = "<group>"; };
 		C20EB0C9A53AC6D8DDCA5461 /* Pods-MWGPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWGPay.debug.xcconfig"; path = "Target Support Files/Pods-MWGPay/Pods-MWGPay.debug.xcconfig"; sourceTree = "<group>"; };
 		C9B6C82204EF48CC8D372670 /* RNDatePicker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNDatePicker.xcodeproj; path = "../node_modules/react-native-date-picker/ios/RNDatePicker.xcodeproj"; sourceTree = "<group>"; };
 		CE5B4D7C652F4DEF96304A0A /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
@@ -585,6 +594,7 @@
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				BC7858D424371F170096093E /* libRNDatePicker.a in Frameworks */,
 				BC7858C824371EA00096093E /* libRCTAnimation.a in Frameworks */,
+				BC7D2A342463CA3B00EB2C6A /* libRNCGeolocation.a in Frameworks */,
 				BC78580924371BEE0096093E /* libRNDeviceInfo.a in Frameworks */,
 				BC7858CE24371EE30096093E /* libRNGestureHandler.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
@@ -747,6 +757,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				BC7D2A2E2463CA3700EB2C6A /* RNCGeolocation.xcodeproj */,
 				BC06456D243C675600707A4A /* RNFirebase.xcodeproj */,
 				BC78594424372C930096093E /* RNPermissions.xcodeproj */,
 				BC78593A24372B500096093E /* RNCNetInfo.xcodeproj */,
@@ -930,6 +941,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BC7D2A2F2463CA3700EB2C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC7D2A332463CA3700EB2C6A /* libRNCGeolocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E188EBEC846685B57102DB3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1046,6 +1065,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				40E8FEB12EDA4D69C5486FEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1159,6 +1179,10 @@
 				{
 					ProductGroup = E5C4002022E5CA1600564A47 /* Products */;
 					ProjectRef = 24B6E63F3E2B4D56BF416CB6 /* RNCAsyncStorage.xcodeproj */;
+				},
+				{
+					ProductGroup = BC7D2A2F2463CA3700EB2C6A /* Products */;
+					ProjectRef = BC7D2A2E2463CA3700EB2C6A /* RNCGeolocation.xcodeproj */;
 				},
 				{
 					ProductGroup = BC78593B24372B500096093E /* Products */;
@@ -1557,6 +1581,13 @@
 			remoteRef = BC78594824372C930096093E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		BC7D2A332463CA3700EB2C6A /* libRNCGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCGeolocation.a;
+			remoteRef = BC7D2A322463CA3700EB2C6A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		E5C4003122E5CA1800564A47 /* libBVLinearGradient.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1714,6 +1745,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E8FEB12EDA4D69C5486FEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MWGPay/Pods-MWGPay-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MWGPay/Pods-MWGPay-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
